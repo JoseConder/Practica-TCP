@@ -1,18 +1,6 @@
 # Practica-TCP
 
-Vamos a aplicar nuestros conocimientos adquiridos de Javascript y de Node.Js para programar un blockchain
-
-Getting Started
-
-    Genera una clase Block como modelo con los siguientes atributos:
-
-    a) Index = Identificador de la posición del bloque en la cadena. b) Data = El contenido del bloque c) previousHash = Valor del bloque anterior de la cadena
-
-    Genera una clase Blockchain.
-
-    Mediante la clase Blockchain manipula elementos Block para poder generar la cadena de bloques.
-
-    Genera un método mine que calcule el nuevo hash del bloque según su dificultad.
+Vamos a aplicar nuestros conocimientos adquiridos de Javascript y de Node.Js para programar un un servidor y cliente TCP
 
 Prerequisites
 
@@ -20,11 +8,14 @@ Se necesita contar con el enviroment de node js y javascript para correr este pr
 
 Installing
 
-Puedes clonar el repositorio en el apartado especifico de code o puedes descargar archivo por archivo en raw, los archivos principales son main, Block y Blockchain, los demas archivos son archivos de necesarios para correr los modulos usados en los archivos principales, pero estos se pueden generar en tu repositorio local de forma manual.
+Puedes clonar el repositorio en el apartado especifico de code o puedes descargar archivo por archivo en raw, los archivos principales son server.js y client.js.
 
-Una vez que cuentes con el repositorio clonado o con los archivos en una carpeta especifica de tu preferencia, tiene que correr el archivo main a traves de node de la siguiente forma:
+Una vez que cuentes con el repositorio clonado o con los archivos en una carpeta especifica de tu preferencia, tiene que correr el archivo server.js y luego ya correr el archivo client.js pero en otra ventana de consola, a traves de node de la siguiente forma:
 
-  node main.js
+  Consola 1
+    node server.js
+  Consola 2
+  node client.js
 
 Built With
 
